@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:scaleType="centerCrop"
+    
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/bStopYo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        
+        android:onClick = "TTS"
+        android:background="@drawable/sp2"
+    
+    
+        />
+    
+    
+    <Button
+        android:id="@+id/bSpeakYo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        
+        android:onClick = "TTS"
+        android:background="@drawable/sp1"
+        
+    
+        />
+    
+    
+    
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollYo"
+    android:layout_marginTop="50dp">
+	
+    <LinearLayout 
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/headYO1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIV/AIDS"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    <TextView
+        android:id="@+id/notetxtYo1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutYo"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/headYO2"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aisan:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtYo2"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/symptYo"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     <TextView
+        android:id="@+id/headYO3"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gbigbe:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtYo3"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transYo"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     <TextView
+        android:id="@+id/headYO4"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idena:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtYo4"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prevYo"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     <TextView
+        android:id="@+id/headYO5"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okunfa ati itọju:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtYo5"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diagYo"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     
+     
+    </LinearLayout>
+</ScrollView>
+    
+
+
+</RelativeLayout>

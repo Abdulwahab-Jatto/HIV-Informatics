@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:scaleType="centerCrop"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   <Button
+        android:id="@+id/bStopEn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        
+        android:onClick = "TTS"
+        android:background="@drawable/sp2"
+    
+    
+        />
+    
+    
+    <Button
+        android:id="@+id/bSpeakEn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        
+        android:onClick = "TTS"
+        android:background="@drawable/sp1"
+        
+    
+        />
+    
+    
+    
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollEn"
+    android:layout_marginTop="50dp">
+	
+    <LinearLayout 
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/headEN1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIV/AIDS"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    <TextView
+        android:id="@+id/notetxtEn1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutEn"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/headEN2"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptoms:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtEn2"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/symptEn"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     <TextView
+        android:id="@+id/headEN3"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transmission:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtEn3"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transEn"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     <TextView
+        android:id="@+id/headEN4"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prevention:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtEn4"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prevEn"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     <TextView
+        android:id="@+id/headEN5"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diagnosis and Treatment:"
+        android:textStyle="bold"
+        android:textColor= "#ffffff"
+        android:textSize="18sp"/>
+    
+    
+     <TextView
+        android:id="@+id/notetxtEn5"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diagEn"
+        android:textColor= "#ffffff"
+        android:textSize="16sp"/>
+    
+     
+     
+    </LinearLayout>
+</ScrollView>
+    
+
+</RelativeLayout>
